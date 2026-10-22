@@ -1,0 +1,40 @@
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PyCharm
+*.iml
+*.iws
+.idea_modules/
+
+# MediaPipe Models
+*.task
+face_landmarker.task
+hand_landmarker.task
+
+# Temporary files
+meme_features_cache.pkl
+match_samples.jsonl
+match_profile.json
+__pycache__/
+*.tmp
+*.bak
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribution / packaging
+*.whl
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
